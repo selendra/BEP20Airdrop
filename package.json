@@ -1,0 +1,31 @@
+{
+  "name": "bep20airdrop",
+  "version": "1.0.0",
+  "description": "Airdrop Smart Contract for SEL version 2 on BSC Network.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selendra/BEP20Airdrop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selendra/BEP20Airdrop/issues"
+  },
+  "homepage": "https://github.com/selendra/BEP20Airdrop#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "@truffle/hdwallet-provider": "^1.2.2"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.8",
+    "web3-utils": "^1.3.6"
+  }
+}
