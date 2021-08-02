@@ -8,6 +8,6 @@ Airdrop Smart Contract for SEL version 2 on BSC Network.
 
 #### How to claim the airdrop
 
-- [] Go to claim.selendra.org.
-- [] Have a small BNB (0.15 USD recommend 5$ USD) to pay gas.
-- [] Connect or enter the wallet and enter the email to form.
+- [ ] Go to claim.selendra.org.
+- [ ] Have a small BNB (0.15 USD recommend 5$ USD) to pay gas.
+- [ ] Connect or enter the wallet and enter the email to form.
