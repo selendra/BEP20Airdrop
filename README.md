@@ -8,6 +8,8 @@ Airdrop Smart Contract for SEL version 2 on BSC Network.
 
 #### How to claim the airdrop
 
-- [ ] Go to claim.selendra.org.
-- [ ] Have a small BNB (0.15 USD recommend 5$ USD) to pay gas.
-- [ ] Connect or enter the wallet and enter the email to form.
+- Step 1: Go to claim.selendra.org.
+- Step 2: Make sure you have configured the BSC network with Metamask (If you are using Bitriel Wallet it's no need).
+- Step 3: Make sure you have some BNB to pay for transaction fees (~1-2 USD worth of BNB, paid to the network.
+- Step 4: Enter your BSC address and click on submit. This will fetch an authorization signature from the list of whitelisted address.
+- Step 5: Confirm the transaction to claim your SEL tokens. This will send a transaction to the Airdrop smart contract.
