@@ -21,8 +21,9 @@
   },
   "homepage": "https://github.com/selendra/BEP20Airdrop#readme",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.2",
     "dotenv": "^10.0.0",
-    "@truffle/hdwallet-provider": "^1.2.2"
+    "web3": "^1.5.0"
   },
   "devDependencies": {
     "truffle-plugin-verify": "^0.5.8",
