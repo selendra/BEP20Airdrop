@@ -1,21 +1,19 @@
 const fs = require('fs');
 const { soliditySha3 } = require("web3-utils")
-const HDWalletProvider = require('@truffle/hdwallet-provider');
-// const infuraKey = "fj4jll3k.....";
-const mnemonic = fs.readFileSync(".secret").toString().trim();
+
 module.exports = async function (callback) {
     try {
         let rawdata = fs.readFileSync('whitelist.json');
         let whitelist = JSON.parse(rawdata);
-        console.log(whitelist);
+        //console.log(whitelist);
 
-        // const accounts = await web3.eth.getAccounts()
-        const provider = new HDWalletProvider(mnemonic, 'https://data-seed-prebsc-1-s1.binance.org:8545');
+        // Fetch accounts from wallet - these are unlocked
+        const accounts = await web3.eth.getAccounts()
 
         let candidates = {}
         for (let i = 0; i < whitelist.candidates.length; i++) {
             const h = soliditySha3(whitelist.values[i], whitelist.candidates[i], whitelist.expiredAt);
-            const sig = await web3.eth.sign(h, '0x8F035537766fba83153c56a10E9b2E72e1Ff5bae')// accounts[0])
+            const sig = await web3.eth.sign(h, accounts[0])
             r1 = '0x' + sig.slice(2, 64 + 2)
             s1 = '0x' + sig.slice(64 + 2, 128 + 2)
             v1 = '0x' + sig.slice(128 + 2, 130 + 2)
