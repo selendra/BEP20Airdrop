@@ -13,3 +13,6 @@ Airdrop Smart Contract for SEL version 2 on BSC Network.
 - Step 3: Make sure you have some BNB to pay for transaction fees (~1-2 USD worth of BNB, paid to the network.
 - Step 4: Enter your BSC address and click on submit. This will fetch an authorization signature from the list of whitelisted address.
 - Step 5: Confirm the transaction to claim your SEL tokens. This will send a transaction to the Airdrop smart contract.
+
+#### CLI How to Sign
+- Step 1: ``` truffle migrate --network testnet```. You will deploy contracts to the Binance testnet. (To sign the whitelist by your accounts on testnet, run``` truffle exec sign.js --network testnet```.)
