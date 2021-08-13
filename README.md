@@ -1,6 +1,13 @@
 # BEP20Airdrop
 Airdrop Smart Contract for SEL version 2 on BSC Network.
 
+## 2nd Round Airdrop
+### How does it work?
+- Step 1: Everyone join airdrop program [from Date] [to date] at https://airdrop.selendra.org.
+- Step 2: Manypulate the address and send it to multisend smart contract.
+- Step 3: User will see the token from their address.
+
+## 3rd Round Airdrop
 #### How does it work?
 - Step 1: Everyone join airdrop program [from Date] [to date] at https://airdrop.selendra.org.
 - Step 2: SmartContract sign all the whitlist address.
